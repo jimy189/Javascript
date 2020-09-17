@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>Calculadora Simples</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+    <div class="jumbotron text-center">
+        <h1>Calculadora Simples</h1>
+        <p>Sejam bem vindos ao sistema de Calculadora</p>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4">
+                <h3>Calculadora Simples</h3>
+                <form action="" class="form">
+                    <div class="form-group">
+                        <label for="">Informe o Valor 1</label>
+                        <input type="text" class="form-control" id="txtValor1" name="txtValor1" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="">Informe o Valor2</label>
+                        <input type="text" class="form-control" id="txtValor2" name="txtValor2" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="">Informe a Operação</label>
+                        <select name="txtOp" id="txtOp" class="form-control">
+                <option value="1">Somar</option>
+                <option value="2">Subtrair</option>
+                <option value="3">Multiplicar</option>
+                <option value="4">Dividir</option>
+            </select>
+                    </div>
+                    <button name="btnExecutar" class="btn btn-primary" id="btnExecutar">Submit</button>
+                </form>
+            </div>
+
+            <div class="result" id="result">Resultado</div>
+        </div>
+
+    </div>
+
+
+    <script src="js/calcular.js"></script>
+
+</body>
+
+</html>

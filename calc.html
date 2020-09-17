@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <title>Calculadora Simples</title>
+</head>
+<body>
+    <!-- Topo -->
+    <div class="jumbotron text-center">
+        <h1>Calculadora Simples</h1>
+        <p>Sejam bem vindo ao sistema de calculos</p>
+    </div>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Calculadora</a>
+          </div>
+          <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="#">Home</a></li>
+              <li><a href="#">Soma</a></li>
+              <li><a href="#">Dividir</a></li>
+              <li><a href="#">Multiplicar</a></li>
+            </ul>      
+          </div>
+        </div>
+      </nav>
+    <div class="container">
+        <div class="row">
+            <div class="col-ms-4">
+                <form action="" class="form">
+                    <div class="form-group">
+                        <label for="valor1">Informe o Valor1</label>
+                        <input type="text" class="form-control" name="txtValor1" id="txtValor1" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="valor2">Informe o Valor2</label>
+                        <input type="text" class="form-control" name="txtValor2" id="txtValor2" required>
+                    </div>
+                    <div class="form-group">
+                        <button type="submit" class="btn btn-primary">Calcular</button>
+                    </div>
+                </form>        
+            </div>     
+        </div>
+    </div>    
+</body>
+</html>

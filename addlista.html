@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+   
+    <title>Gerenciamento de Quartos</title>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light justify-content-md-center">
+
+        <span class="navbar-brand mb-0 h1 ">Hotel Outlet</span>
+    </nav>
+    <br>
+    <div class="container">
+        <h3 class="title">Gerenciamento de Quartos</h3>
+        <div class="row">
+            <div class="card">
+                <form id="addProductForm" class="card-body">
+                    <h4 class="title">Adicionar Quartos</h4>
+                    <br>
+                    <div class="form-group">
+                        <input type="text" name="nome" id="product-name-input" placeholder="Nome do Quarto" class="form-control">
+                        <br>
+                        <input type="number" name="nome" id="product-price-input" step="1" placeholder="Preço do Quarto">
+
+                        <input type="number" name="nome" id="product-qtd-input" step="1" placeholder="Quantidade de dias">
+                        <input type="submit" value="Adicionar" class=" btn btn-primary">
+                    </div>
+                </form>
+
+                <div id="productList"></div>
+
+            </div>
+        </div>
+        <div id="productList" class="col-md-8"></div>
+    </div>
+
+
+
+    <script src="js/addList.js"></script>
+    </div>
+    </div>
+    </div>
+
+
+
+</body>
+
+</html>

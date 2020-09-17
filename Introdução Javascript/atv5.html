@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atv1</title>
+</head>
+
+<body>
+    <script>
+        function usuarioHabilidade(usuarios) {
+            return console.log('O ' + usuarios[0]['nome'] + ' possui as habilidades: ' + usuarios[0]['habilidades'] + "\n" + usuarios[1]['nome'] + ' possui as habilidades: ' + usuarios[1]['habilidades']);
+
+        }
+
+        var usuarios = [{
+            nome: "Diego",
+            habilidades: ["Javascript", "ReactJS", "Redux"]
+        }, {
+            nome: "Gabriel",
+            habilidades: ["VueJS", "Ruby on Rails", "Elixir"]
+        }];
+
+
+        var usuario = usuarioHabilidade(usuarios);
+
+        console.log(usuarios[0]['nome']);
+    </script>
+    <script src="js/atv1.js"></script>
+</body>
+
+</html>
